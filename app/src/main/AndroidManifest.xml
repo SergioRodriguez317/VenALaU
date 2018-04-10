@@ -19,16 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReservasActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".IniciarSesionActivity" />
-        <activity android:name=".RegistroActivity" />
-        <activity android:name=".ImplementosActivity" />
-        <activity android:name=".EventosActivity" />
-        <activity android:name=".DetalleEventoActivity" />
-        <activity android:name=".DeportesHomeActivity" />
-        <activity android:name=".ConfirmacionActivity" />
-        <activity android:name=".EstadoCuentaActivity"></activity>
+        <activity android:name=".ReservasActivity" android:label="Reservas" android:parentActivityName=".DeportesHomeActivity"/>
+        <activity android:name=".AboutActivity" android:label="Acerca de" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".IniciarSesionActivity" android:label="Iniciar Sesión" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".RegistroActivity" android:label="Registro" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ImplementosActivity" android:label="Implementos deportivos" android:parentActivityName=".DeportesHomeActivity"/>
+        <activity android:name=".EventosActivity" android:label="Eventos" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DetalleEventoActivity" android:label="Eventos" android:parentActivityName=".EventosActivity"/>
+        <activity android:name=".DeportesHomeActivity" android:label="Deportes" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ConfirmacionActivity" android:label="Confirmación" android:parentActivityName=".ReservasActivity"/>
+        <activity android:name=".EstadoCuentaActivity" android:label="Estado de Cuenta" android:parentActivityName=".DeportesHomeActivity"></activity>
     </application>
 
 </manifest>
