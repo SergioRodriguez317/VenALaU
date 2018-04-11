@@ -1,9 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.sergiorodriguez.venalau.ConfirmacionActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editNombreConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editIdConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editNombreConf"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Id" />
+
+    <EditText
+        android:id="@+id/editFechaConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editIdConf"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fecha" />
+
+    <EditText
+        android:id="@+id/editHoraConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editFechaConf"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hora" />
+
+    <EditText
+        android:id="@+id/editLugarConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editHoraConf"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Lugar" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@color/colorAccent"
+        android:onClick="OnClickBotonConfirmacion"
+        android:text="Reservar"
+        android:textSize="18sp" />
+
+</RelativeLayout>

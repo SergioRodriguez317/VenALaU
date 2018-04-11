@@ -71,7 +71,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="51dp"
+        android:layout_marginBottom="57dp"
+        android:onClick="OnClickBotonIniciar"
         android:text="Ingresar"
         android:textSize="18sp" />
 
