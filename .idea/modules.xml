@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VenALaU.iml" filepath="$PROJECT_DIR$/VenALaU.iml" />
-      <module fileurl="file://C:\Users\Sergio Rodriguez\Documents\Semestre 7\Proyecto aplicado en TIC 1\VenALaU\VenALaU.iml" filepath="C:\Users\Sergio Rodriguez\Documents\Semestre 7\Proyecto aplicado en TIC 1\VenALaU\VenALaU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../Sergio Rodriguez/Documents/Semestre 7/Proyecto aplicado en TIC 1/VenALaU/VenALaU.iml" filepath="$PROJECT_DIR$/../../../../Sergio Rodriguez/Documents/Semestre 7/Proyecto aplicado en TIC 1/VenALaU/VenALaU.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Sergio Rodriguez\Documents\Semestre 7\Proyecto aplicado en TIC 1\VenALaU\app\app.iml" filepath="C:\Users\Sergio Rodriguez\Documents\Semestre 7\Proyecto aplicado en TIC 1\VenALaU\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../Sergio Rodriguez/Documents/Semestre 7/Proyecto aplicado en TIC 1/VenALaU/app/app.iml" filepath="$PROJECT_DIR$/../../../../Sergio Rodriguez/Documents/Semestre 7/Proyecto aplicado en TIC 1/VenALaU/app/app.iml" />
     </modules>
   </component>
 </project>

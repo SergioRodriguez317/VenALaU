@@ -6,4 +6,85 @@
     android:layout_height="match_parent"
     tools:context="com.example.sergiorodriguez.venalau.RegistroActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sergiorodriguez.venalau.ConfirmacionActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <EditText
+            android:id="@+id/editNombreReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editIdReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editNombreReg"
+            android:layout_marginTop="38dp"
+            android:ems="10"
+            android:hint="Id"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editCorreoReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editIdReg"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editContReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editCorreoReg"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editConfirmReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editContReg"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:hint="Confirmar Contrasñea"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="384dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/editConfirmReg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp"
+            android:background="@color/colorAccent"
+            android:onClick="OnClickBotonRegistrar"
+            android:text="Registrar"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
